@@ -33,7 +33,7 @@
 
 # 📦 Installation
 ```
-local Toba = require(path.To.Toba)
+local Toba = loadstring(game:HttpGet("https://raw.githubusercontent.com/Legitxwx/TobaNice/main/Official.lua"))()
 ````
 ---
 
