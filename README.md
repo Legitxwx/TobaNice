@@ -1,9 +1,9 @@
 🚀 TOBA UI Library
 
-![Version](https://img.shields.io/badge/version-4.0-blue)
-![Status](https://img.shields.io/badge/status-active-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Made With Lua](https://img.shields.io/badge/made%20with-Lua-2C2D72?logo=lua&logoColor=white)
+"Version" (https://img.shields.io/badge/version-4.0-blue)
+"Status" (https://img.shields.io/badge/status-active-brightgreen)
+"License" (https://img.shields.io/badge/license-MIT-green)
+"Made With Lua" (https://img.shields.io/badge/made%20with-Lua-2C2D72?logo=lua&logoColor=white)
 
 ---
 
@@ -11,7 +11,7 @@
 
 TOBA is a modern, lightweight, and powerful UI library designed to create clean and interactive interfaces with ease.
 
-Built for performance, smooth animations, and a simple developer-friendly API.
+Built for performance, smooth animations, and a clean developer-friendly API.
 
 ---
 
@@ -21,11 +21,11 @@ Built for performance, smooth animations, and a simple developer-friendly API.
 - ✨ Smooth animation system
 - 🖱️ Draggable window support
 - ⚡ Lightweight & optimized
-- 📂 Tabs & sections layout system
+- 📂 Tabs & sections layout
 - 🔘 Buttons, Toggles, Sliders, Dropdowns
 - ⌨️ Keybind system
 - 🔔 Built-in notification system
-- 🧩 Simple and readable API
+- 🧩 Simple & readable API
 
 ---
 
@@ -35,7 +35,7 @@ local Toba = require(path.To.Toba)
 
 ---
 
-🪟 Create Window
+🪟 Window
 
 local Window = Toba:CreateWindow({
     Title = "Toba UI V4",
@@ -44,13 +44,13 @@ local Window = Toba:CreateWindow({
 
 ---
 
-📑 Create Tab
+📑 Tab
 
 local Main = Window:CreateTab("Main")
 
 ---
 
-📂 Create Section
+📂 Section
 
 Main:CreateSection("Basic")
 
