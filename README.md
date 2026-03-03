@@ -1,10 +1,9 @@
-🚀 TOBA UI Library (V4)
+🚀 TOBA UI Library
 
-""Version" (https://img.shields.io/badge/version-4.0-blue.svg)"
-""Status" (https://img.shields.io/badge/status-active-success.svg)"
-""License" (https://img.shields.io/badge/license-MIT-green.svg)"
-""Made With Lua" (https://img.shields.io/badge/made%20with-Lua-2C2D72.svg?logo=lua&logoColor=white)"
-""Maintained" (https://img.shields.io/badge/maintained-yes-brightgreen.svg)"
+![Version](https://img.shields.io/badge/version-4.0-blue)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Made With Lua](https://img.shields.io/badge/made%20with-Lua-2C2D72?logo=lua&logoColor=white)
 
 ---
 
