@@ -31,46 +31,46 @@ Built for performance, smooth animations, and a clean developer-friendly API.
 
 ---
 
-📦 Installation
-
+# 📦 Installation
+```
 local Toba = require(path.To.Toba)
-
+````
 ---
 
-🪟 Window
-
+# 🪟 Window
+```
 local Window = Toba:CreateWindow({
     Title = "Toba UI V4",
     Size = UDim2.new(0.5, 0, 0.6, 0)
 })
-
+```
 ---
 
-📑 Tab
-
+# 📑 Tab
+```
 local Main = Window:CreateTab("Main")
-
+```
 ---
 
-📂 Section
-
+# 📂 Section
+```
 Main:CreateSection("Basic")
-
+```
 ---
 
-🔘 Button
-
+# 🔘 Button
+```
 Main:CreateButton({
     Name = "Print Hello",
     Callback = function()
         print("Hello World")
     end
 })
-
+```
 ---
 
-🔁 Toggle
-
+# 🔁 Toggle
+```
 Main:CreateToggle({
     Name = "Enable Feature",
     Default = false,
@@ -78,11 +78,11 @@ Main:CreateToggle({
         print("Toggle:", state)
     end
 })
-
+```
 ---
 
-🎚️ Slider
-
+# 🎚️ Slider
+```
 Main:CreateSlider({
     Name = "Speed",
     Min = 0,
@@ -92,11 +92,11 @@ Main:CreateSlider({
         print("Slider:", value)
     end
 })
-
+```
 ---
 
-📋 Dropdown
-
+# 📋 Dropdown
+```
 Main:CreateDropdown({
     Name = "Select Mode",
     Options = {"Easy", "Medium", "Hard"},
@@ -104,22 +104,22 @@ Main:CreateDropdown({
         print(option)
     end
 })
-
+```
 ---
 
-⌨️ Input
-
+# ⌨️ Input
+```
 Main:CreateInput({
     Placeholder = "Enter Name",
     Callback = function(text)
         print(text)
     end
 })
-
+```
 ---
 
-🎮 Keybind
-
+# 🎮 Keybind
+```
 Main:CreateKeybind({
     Name = "Open/Close",
     Default = Enum.KeyCode.RightShift,
@@ -127,15 +127,15 @@ Main:CreateKeybind({
         print("Key pressed")
     end
 })
-
+```
 ---
 
-🔔 Notification
-
+# 🔔 Notification
+```
 Window:Notify("Loaded Successfully", 3)
-
+```
 ---
 
-⭐ Support
+# ⭐ Support
 
-If you like this project, consider giving it a star on GitHub!
+- If you like this project, consider giving it a star on GitHub!
