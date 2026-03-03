@@ -1,4 +1,4 @@
-🚀 TOBA UI Library
+# 🚀 TOBA UI Library
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-4.0-blue" />
@@ -9,15 +9,15 @@
 
 ---
 
-✨ About
+# ✨ About
 
-TOBA is a modern, lightweight, and powerful UI library designed to create clean and interactive interfaces with ease.
+**TOBA is a modern, lightweight, and powerful UI library designed to create clean and interactive interfaces with ease.**
 
-Built for performance, smooth animations, and a clean developer-friendly API.
+**Built for performance, smooth animations, and a clean developer-friendly API.**
 
 ---
 
-🔥 Features
+# 🔥 Features
 
 - 🎨 Modern & clean UI design
 - ✨ Smooth animation system
